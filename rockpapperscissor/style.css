@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(71, 60, 47);
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: azure;
+   text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+
+}
+.winner{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.winner div{
+    margin-top: 50px;
+    margin-left:50px ;
+}
+h4{
+    text-align: center;
+    font-size: 40px;
+}
+.score{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.title h1{
+   text-align: center;
+}
